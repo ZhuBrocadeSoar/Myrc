@@ -686,3 +686,20 @@ sudo dnf update git
 git --version
 git clone git://git.kernel.org/pub/scm/git/git.git
 top
+git config --list
+sudo git config --list
+git config --global user.name "ZhuBrocadeSoar"
+git config --global user.email zhujinteng2012@hotmail
+sudo git config --list
+git config --list
+git init
+git add ~/.vimrc 
+git add ~/.bashrc
+git commit -m 'initial project version'
+git status
+git status -s
+git commit 
+git add ~/.bash_history 
+git commit
+git status -s
+git commit 
